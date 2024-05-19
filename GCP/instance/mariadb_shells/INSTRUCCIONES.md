@@ -12,27 +12,39 @@ gcloud compute instances create instance-bigdata --project=bigdata2-423718 --zon
 
 You can clone a single directory from a GitHub repository by using a combination of Git sparse-checkout and filter features. Follow these steps:
 
-1. **Initialize a new Git repository:**
+1. **Update and upgrade system**
+    ```bash
+    sudo apt get update
+    sudo apt get upgrade
+    ```
+
+2. **Create filename**
+    ```bash
+    mkdir codes
+    cd codes
+    ```
+
+3. **Initialize a new Git repository:**
     ```bash
     git init
     ```
 
-2. **Add the remote repository::**
+4. **Add the remote repository::**
     ```bash
-    git remote add origin https://github.com/Anonymate054/MCD-BigData
+    git remote add origin https://github.com/Anonymate054/MCD-BigData.git
     ```
 
-3. **Enable the sparse-checkout feature:**
+5. **Enable the sparse-checkout feature:**
     ```bash
     git config core.sparseCheckout true
     ```
 
-4. **Specify the directory you want to clone:**
+6. **Specify the directory you want to clone:**
     ```bash
     echo "GCP/instance/mariadb_shells/*" >> .git/info/sparse-checkout
     ```
 
-5. **Pull the specified directory from the remote repository:**
+7. **Pull the specified directory from the remote repository:**
     ```bash
     git pull origin main
     ```
