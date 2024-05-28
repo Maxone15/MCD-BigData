@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Instalar rar y unrar si no están instalados
+sudo apt update && sudo apt upgrade -y
 sudo apt install -y rar unrar
 
 # Obtener el directorio base desde el argumento de la línea de comandos
