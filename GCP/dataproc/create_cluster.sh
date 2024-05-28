@@ -55,5 +55,19 @@ command="gcloud dataproc clusters create $cluster_name \
     --scopes "https://www.googleapis.com/auth/cloud-platform" \
     --project $project_name"
 
+# command= "gcloud dataproc clusters create $cluster_name \
+#     --enable-component-gateway \
+#     --region $region \
+#     --subnet default \
+#     --master-machine-type e2-standard-4 \
+#     --master-boot-disk-size 100 \
+#     --num-workers 2 \
+#     --worker-machine-type e2-standard-2 \
+#     --worker-boot-disk-size 100 \
+#     --image-version 2.2-ubuntu22 \
+#     --optional-components JUPYTER,ZEPPELIN,DOCKER \
+#     --scopes 'https://www.googleapis.com/auth/cloud-platform' \
+#     --project $project_name"
+
 echo "Running: $command"
 $command 
