@@ -11,13 +11,13 @@
 
 ## Structure
 
-The project is organized into two main sections: PySpark and Python Classic, located within the `notebooks/pyspark` folder. The shared resources are located in the `shells` folder.
+The project is organized into two main sections: PySpark and Python Classic, located within the `notebooks/pySpark` and `notebooks/Python-classic` folder. The shared resources are located in the ``notebooks/shells` folder.
 
 ## Extraction Methods
 
 There are two ways to extract information:
-
-### Using Jupyter Notebooks
+ 
+### Using Jupyter Notebooks for Python Classic
 
 1. **Scrapper Notebook**: Run `Scrapper.ipynb` to obtain the files.
 2. **Upload Data Notebook**: Run `upload_data.ipynb` to upload the files to an HDFS system using pandas (in progress).
@@ -25,9 +25,9 @@ There are two ways to extract information:
 ### Using Python Scripts
 
 1. **Get Links Script**: Execute `get_links.py` to retrieve the links.
-2. **Scrapper Utils Script**: Execute `Scrapper_utils.py` for additional scraping utilities.
+2. **Scrapper Utils Script**: `Scrapper_utils.py` Contains scraping utility functions.
 
-### Setting Up Python Environment for Python - Classic
+### Setting Up Python Environment
 
 1. **Create python venv:**
     ```bash
