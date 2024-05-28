@@ -250,4 +250,7 @@ $RECYCLE.BIN/
 # Downloaded files
 Scrapper/files
 
+# Allow GCP files
+!GCP
+
 # End of https://www.toptal.com/developers/gitignore/api/linux,windows,macos,python
