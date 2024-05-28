@@ -48,14 +48,7 @@ There are two ways to extract information:
     ```bash
     pip install -r requirements.txt
     ```
-### Unrar files
-
-1. **Run script**
-    ```bash
-    ../shells/unrar_files.sh <directory>
-    ```
-
-### Upload Information
+# Upload information
 
 1. **Create environmental variables:**
     Create a `.env` file and configure the following environment variables:
