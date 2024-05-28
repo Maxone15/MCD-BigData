@@ -55,4 +55,5 @@ command="gcloud dataproc clusters create $cluster_name \
     --scopes "https://www.googleapis.com/auth/cloud-platform" \
     --project $project_name"
 
-$command
+echo "Running: $command"
+$command 

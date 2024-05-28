@@ -79,5 +79,5 @@ The `shells` folder contains scripts and resources shared between the PySpark an
 ## Technologies Used
 
 - Python 3 ![Python](https://img.shields.io/badge/Python-3.x-blue)
-- pySpark 3.5.0 ![pySpark](https://img.shields.io/badge/pySpark-3.5.0-orange)
+- pySpark 3.3.0 ![pySpark](https://img.shields.io/badge/pySpark-3.3.0-orange)
 

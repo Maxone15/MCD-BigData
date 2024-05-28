@@ -21,7 +21,8 @@ The prices displayed include the date they were taken; however, they are subject
 ## Technologies Used
 
 - Python 3 ![Python](https://img.shields.io/badge/Python-3.x-blue)
-- pySpark 3.5.0 ![pySpark](https://img.shields.io/badge/pySpark-3.5.0-orange)
+- pySpark 3.3.0 ![pySpark](https://img.shields.io/badge/pySpark-3.3.0-orange)
+- Hadoop 3.3.0 ![Hadoop](https://img.shields.io/badge/pySpark-3.3.0-orange)
 - GCP with Data Proc ![GCP Data Proc](https://img.shields.io/badge/GCP-Data%20Proc-brightgreen)
 - GCP with Compute Engine ![GCP Compute Engine](https://img.shields.io/badge/GCP-Compute%20Engine-brightgreen)
 - MariaDB ![MariaDB](https://img.shields.io/badge/MariaDB-10.x-blue)
