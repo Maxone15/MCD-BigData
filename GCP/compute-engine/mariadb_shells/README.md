@@ -60,7 +60,7 @@ You can clone a single directory from a GitHub repository by using a combination
 
 6. **Specify the directory you want to clone:**
     ```bash
-    echo "GCP/instance/mariadb_shells/*" >> .git/info/sparse-checkout
+    echo "GCP/compute-engine/mariadb_shells/*" >> .git/info/sparse-checkout
     ```
 
 7. **Pull the specified directory from the remote repository:**
