@@ -72,7 +72,7 @@ You can clone a single directory from a GitHub repository by using a combination
 
 1. **Move to files:**
     ```bash
-    cd GCP/instance/mariadb_shells
+    cd GCP/compute-engine/mariadb_shells
     ```
 
 2. **Grand persitions:**
