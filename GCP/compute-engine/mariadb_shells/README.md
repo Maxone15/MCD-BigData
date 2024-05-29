@@ -93,53 +93,42 @@ You can clone a single directory from a GitHub repository by using a combination
     sudo systemctl status mariadb
     ```
 
-6. **Check if the system is running:**
-    ```bash
-    sudo systemctl status mariadb
-    ```
-
-7. **Grand persitions:**
+6. **Grand persitions:**
     ```bash
     chmod +x 2_crear_usuario.sh
     ```
 
-8. **Run script:**
+7. **Run script:**
     ```bash
     sudo ./2_crear_usuario.sh
     ```
 
-9. **Test connection**
+8. **Test connection**
     ```bash
     mysql -u big_data_user -p
     ```
-
-10. **Test connection**
-    ```bash
-    mysql -u big_data_user -p
-    ```
-    write `exit` to exit the database.
-
-11. **Grand persitions:**
+    
+9. **Grand persitions:**
     ```bash
     chmod +x 3_modificar_configuracion.sh
     ```
 
-12. **Run script:**
+10. **Run script:**
     ```bash
     sudo ./3_modificar_configuracion.sh
     ```
 
-13. **Grand persitions:**
+11. **Grand persitions:**
     ```bash
     chmod +x 4_crear_regla_vpc.sh
     ```
 
-14. **Run script:**
+12. **Run script:**
     ```bash
     sudo ./4_crear_regla_vpc.sh
     ```
 
-15. **Reboot system:**
+13. **Reboot system:**
     ```bash
     sudo reboot
     ```
